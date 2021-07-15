@@ -109,15 +109,16 @@ body{
 }
 .player-name{
     font-size: 28px;
-    margin-top: 16;
+    margin-top: 10px;
+    
 }
 .about-player{
     font-size: 16px;
-    margin-top: 10px;
+    margin-top: 0;
 }
 .player-detail{
     width: 300px;
-    height: 144px;
+    height: 200px;
     
 }
 /* for gallary */
@@ -134,7 +135,7 @@ body{
     justify-content: center;
     grid-column-gap: 30px;
     grid-row-gap: 30px;
-    margin-right: 30px;
+    margin-right: 40px;
 }
 /* footer starts here */
 footer{
