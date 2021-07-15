@@ -14,16 +14,21 @@ body{
     
 }
 .head-title{
-    padding-left: 156px;
-    padding-top: 207px;
+    width: 487px;
+    height: 320px;
+    padding-top: 150px;
+    padding-left: 50px;
     padding-bottom: 150px;
+    
+    
 }
 .big-writing{
-    font-size: 64px;
+    font-size: 60px;
     color: #FFFFFF;
-    width: 485px;
-    height: 230px;
-    padding-bottom: 27px;
+    margin-bottom: 30px;
+    line-height: 70px;
+   
+   
 
 }
 /* for hovoring */
@@ -53,9 +58,10 @@ body{
    
     
 }
-.showing-live{
+/* .showing-live{
     margin-top: 27px;
-}
+    margin-bottom: 140px; */
+
 .live-button:hover{
     border: 3px solid cyan;
 }
@@ -77,9 +83,10 @@ body{
 }
 .players{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 5px;
+    grid-template-columns: repeat(3, 340px);
+    grid-column-gap: 30px;
     grid-row-gap: 30px;
+    margin: auto;
     
 
 }
@@ -109,6 +116,19 @@ body{
     width: 300px;
     height: 144px;
     
+}
+/* for gallary */
+.photo img{
+   width: 400px;
+   height: 300px;
+   border-radius: 15px;
+  
+}
+.gallary-photos{
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
 }
 /* footer starts here */
 footer{
@@ -162,7 +182,8 @@ footer{
         font-size: 36px;
         color: #FFFFFF;
         width: 278px;
-            height: 138px;
+        height: 138px;
+        line-height: 50px;
             
     }
     .live-button{
@@ -184,7 +205,7 @@ footer{
         padding-bottom: 60px;
         padding-left: 16px;
         position: relative;
-        top: -170px;
+        top: -160px;
     }
   
     .container{
@@ -226,4 +247,20 @@ footer{
         margin-top: 20px;
         font-size: 18px;
     }
+    /* for photo gallary */
+    .photo img{
+        width: 400px;
+        height: 300px;
+        border-radius: 15px;
+       
+     }
+     .gallary-photos{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+        justify-content: center;
+    }
+    
+
 }
